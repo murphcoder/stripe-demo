@@ -1,3 +1,3 @@
-const server = 'http://localhost:4242/';
+const server = 'https://pandia-stripe-demo-api.herokuapp.com//';
 
 export default server
