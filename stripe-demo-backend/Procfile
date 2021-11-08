@@ -1,1 +1,1 @@
-worker: ruby server.rb
+worker: bundle exec ruby server.rb -p 4242
