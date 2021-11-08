@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
+import server from "./Server";
 
 const ProductDisplay = () => (
   <section>
@@ -13,7 +14,7 @@ const ProductDisplay = () => (
       <h5>$45.00</h5>
       </div>
     </div>
-    <form action="http://localhost:4242/create-checkout-session" method="POST">
+    <form action={server + "/create-checkout-session"} method="POST">
       <button type="submit">
         Checkout
       </button>
