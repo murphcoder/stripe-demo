@@ -7,7 +7,7 @@ Stripe.api_key = 'sk_test_51Jqs98IHnITDo4ldUwmD77Ryiu61jgTcTTul6JtrWZ54uIQI1EYux
 set :static, true
 set :port, 4242
 
-YOUR_DOMAIN = 'http://localhost:3000/checkout'
+YOUR_DOMAIN = 'https://pandia-stripe-demo-frontend.herokuapp.com/checkout'
 
 post '/create-checkout-session' do
   content_type 'application/json'
