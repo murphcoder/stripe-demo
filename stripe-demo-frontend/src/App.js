@@ -14,7 +14,7 @@ const ProductDisplay = () => (
       <h5>$45.00</h5>
       </div>
     </div>
-    <form action={server + "/create-checkout-session"} method="POST">
+    <form action={server + "create-checkout-session"} method="POST">
       <button type="submit">
         Checkout
       </button>
