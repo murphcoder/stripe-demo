@@ -9,6 +9,10 @@ set :port, 4242
 
 YOUR_DOMAIN = 'https://pandia-stripe-demo-frontend.herokuapp.com/checkout'
 
+get '/' do
+  'Working!'
+end
+
 post '/create-checkout-session' do
   content_type 'application/json'
 
